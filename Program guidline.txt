@@ -1,0 +1,12 @@
+Malaria_main.m
+- Pre pocessing + Segmentation
+- Features extraction 
+- (Classification)
+
+FeatureSelection_main.m
+- mRMR
+- Feed forward selection / Backward selection (using leave 1 out validation)
+- Create svm model from selected features
+
+TestClassification.m
+- Calculate accuracy of each model 

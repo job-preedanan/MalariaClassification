@@ -1,0 +1,42 @@
+% Testing with 'Linear' and 'rbf' svm model from 'mrmr' 
+    selectedFeatures(:,1) = features(:,109);     
+    selectedFeatures(:,2) = features(:,7); 
+    selectedFeatures(:,3) = features(:,103); 
+    selectedFeatures(:,4) = features(:,143);  
+    selectedFeatures(:,5) = features(:,107);  
+    selectedFeatures(:,6) = features(:,110);  
+    selectedFeatures(:,7) = features(:,147);  
+    selectedFeatures(:,8) = features(:,163);  
+    selectedFeatures(:,9) = features(:,122);   
+    selectedFeatures(:,10) = features(:,45);   
+
+% Testing with 'linear' svm model from 'feed forward'
+    selectedFeatures(:,1) = features(:,103);   
+    selectedFeatures(:,2) = features(:,109);  
+    selectedFeatures(:,3) = features(:,45);
+
+% Testing with 'rbf' svm model from 'feed forward'
+    selectedFeatures(:,1) = features(:,103);   
+    selectedFeatures(:,2) = features(:,45);
+
+% Testing with 'linear' svm model from 'backward'
+    selectedFeatures(:,1) = features(:,109); 
+    selectedFeatures(:,2) = features(:,7); 
+    selectedFeatures(:,3) = features(:,143);  
+    selectedFeatures(:,4) = features(:,107);  
+    selectedFeatures(:,5) = features(:,110);  
+    selectedFeatures(:,6) = features(:,147);  
+    selectedFeatures(:,7) = features(:,163);  
+    selectedFeatures(:,8) = features(:,122);   
+    selectedFeatures(:,9) = features(:,45);  
+
+ % Testing with 'rbf' svm model from 'backward'
+    selectedFeatures(:,1) = features(:,109); 
+    selectedFeatures(:,2) = features(:,103); 
+    selectedFeatures(:,3) = features(:,143);  
+    selectedFeatures(:,4) = features(:,107);  
+    selectedFeatures(:,5) = features(:,110);  
+    selectedFeatures(:,6) = features(:,147);  
+    selectedFeatures(:,7) = features(:,163);  
+    selectedFeatures(:,8) = features(:,122);   
+    selectedFeatures(:,9) = features(:,45);  
